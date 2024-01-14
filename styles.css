@@ -1,0 +1,178 @@
+body {
+    font-family: Georgia;
+    background-color:white;
+    
+  }
+  h1 {
+    margin-top: 200px;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    float: center;
+    
+}
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    float: center;
+  
+}
+h4 {
+
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-family: Georgia;
+    float: center;
+    display: block;
+}
+
+#avatar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    color: #141c3a;
+    display: block;
+    padding: 1.25rem;
+}
+  #menu {
+    z-index: 2;
+    
+  }
+  
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor:pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #1a3295;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+    
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #1a3295, #cdc7c8);
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+  }
+
+ 
+.container {
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+  }
+
+  form {
+    
+    display:flex ;
+    flex-direction: column;
+    padding:2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    font-family: Georgia;
+  }
+
+  form h1 {
+    font-weight:800;
+    margin-bottom: 20px;
+
+  }
+
+  
+
+
+
+
+  
